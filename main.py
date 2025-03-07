@@ -1,7 +1,7 @@
 import os
 
 from dotenv import load_dotenv, find_dotenv
-_ = load_dotenv(find_dotenv()) # read local .env file
+_ = load_dotenv(find_dotenv())
 
 import warnings
 warnings.filterwarnings('ignore')
